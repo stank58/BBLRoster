@@ -1,0 +1,293 @@
+﻿{
+	"gameAttributes": {
+		"numGames": 36,
+		"numGamesPlayoffSeries": [3,3,1],
+		"quarterLength": 10,
+		"salaryCap": 250,
+		"budget": false,
+        "playIn": false,                             
+		"draftType": "freeAgents",
+		"numDraftRounds": 0,
+		"luxuryPayroll": 1000,
+		"maxContract": 250,
+		"minContract": 10,
+		"minRosterSize": 10,
+		"maxRosterSize": 13,
+		"minPayroll": 0,
+        "pace": 95,
+		"foulRateFactor": 1.1,
+        
+		"confs": [{ "cid": 0, "name": "British Basketball League" }],
+		"divs": [
+			{ "did": 0, "cid": 0, "name": "British" },
+		],
+		"playerBioInfo": {
+			"frequencies": {
+				"England": 200,
+				"Scotland": 30,
+				"Ireland": 20,
+				"USA": 20,
+				"Spain": 10,
+				"Germany": 10,
+				"Israel": 1,
+                "France": 10,
+                "Poland": 5,
+                "Brazil": 1,
+                "Argentina": 1,
+                "Canada": 10,
+                "Wales": 15,
+                "Australia": 5,
+                "New Zealand": 5,
+                "Sweden": 5,
+                "Bulgaria": 5,
+                "Greece": 5,
+                "Latvia": 3,
+                "Albania": 1,
+                "Jamaica": 1
+			}
+		}
+	},
+	"teams": [
+		{
+			"tid": 0,
+			"cid": 0,
+			"did": 0,
+			"region": "Bristol",
+			"name": "Flyers",
+			"abbrev": "BRI",
+			"pop": 0.5,
+			"imgURL": "https://upload.wikimedia.org/wikipedia/en/9/9c/Bristol_Flyers.png",
+			"stadiumCapacity": 750,
+			"colors": ["#00007f", "#ff0000", "#ffffff"]
+		},
+		{
+			"tid": 1,
+			"cid": 0,
+			"did": 0,
+			"region": "Cheshire",
+			"name": "Phoenix",
+			"abbrev": "CHE",
+			"pop": 0.9,
+			"imgURL": "https://upload.wikimedia.org/wikipedia/en/d/dc/Cheshire_Phoenix.png",
+			"stadiumCapacity": 1400,
+			"colors": ["#00007f", "#ffd900", "#00007f"]
+		},
+		{
+			"tid": 2,
+			"cid": 0,
+			"did": 0,
+			"region": "Caledonia",
+			"name": "Gladiators",
+			"abbrev": "CAL",
+			"pop": 5.4,
+			"imgURL": "https://upload.wikimedia.org/wikipedia/en/2/29/Caledonia_Gladiators_logo.png",
+			"stadiumCapacity": 6500,
+			"colors": ["#ffaa00", "#00007f", "#ffffff"]
+		},
+		{
+			"tid": 3,
+			"cid": 0,
+			"did": 0,
+			"region": "Leicester",
+			"name": "Riders",
+			"abbrev": "LEI",
+			"pop": 0.4,
+			"imgURL": "https://upload.wikimedia.org/wikipedia/en/6/67/Leicester_Riders.png",
+			"stadiumCapacity": 2400,
+			"colors": ["#ff0000", "#000000", "#ffffff"]
+		},
+		{
+			"tid": 4,
+			"cid": 0,
+			"did": 0,
+			"region": "London",
+			"name": "Lions",
+			"abbrev": "LON",
+			"pop": 9.6,
+			"imgURL": "https://upload.wikimedia.org/wikipedia/en/b/b5/London_Lions_logo_%282021%29.png",
+			"stadiumCapacity": 6000,
+			"colors": ["#ffffff", "#00aaff", "#ffffff"]
+		},
+		{
+			"tid": 5,
+			"cid": 0,
+			"did": 0,
+			"region": "Manchester",
+			"name": "Giants",
+			"abbrev": "MAN",
+			"pop": 0.6,
+			"imgURL": "https://upload.wikimedia.org/wikipedia/en/9/9b/ManchesterGiants.png",
+			"stadiumCapacity": 2000,
+			"colors": ["#ff0000", "#ffffff", "#ff0000"]
+		},
+		{
+			"tid": 6,
+			"cid": 0,
+			"did": 0,
+			"region": "Newcastle",
+			"name": "Eagles",
+			"abbrev": "NEW",
+			"pop": 0.3,
+			"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Newcastle_Eagles_logo.svg/1920px-Newcastle_Eagles_logo.svg.png",
+			"stadiumCapacity": 3000,
+			"colors": ["#ffffff", "#00ff00", "#aaaaaa"]
+		},
+		{
+			"tid": 7,
+			"cid": 0,
+			"did": 0,
+			"region": "Plymouth City",
+			"name": "Patriots",
+			"abbrev": "PLY",
+			"pop": 0.2,
+			"imgURL": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Plymouth_City_Patriots.webp/316px-Plymouth_City_Patriots.webp.png",
+			"stadiumCapacity": 1500,
+			"colors": ["#aa00ff", "#ffd900", "#ffffff"]
+		},
+		{
+			"tid": 8,
+			"cid": 0,
+			"did": 0,
+			"region": "Sheffield",
+			"name": "Sharks",
+			"abbrev": "SHE",
+			"pop": 5.1,
+			"imgURL": "https://upload.wikimedia.org/wikipedia/en/8/89/Sheffield_Sharks_logo.png",
+			"stadiumCapacity": 1000,
+			"colors": ["#00007f", "#ffffff", "#0000ff"]
+		},
+		{
+			"tid": 9,
+			"cid": 0,
+			"did": 0,
+			"region": "Surrey",
+			"name": "Scorchers",
+			"abbrev": "SUR",
+			"pop": 1.2,
+			"imgURL": "https://upload.wikimedia.org/wikipedia/en/8/82/Surrey_Scorchers.png",
+			"stadiumCapacity": 1000,
+			"colors": ["#00007f", "#ffffff", "#0000ff"]
+		},
+		{
+			"tid": 10,
+			"cid": 0,
+			"did": 0,
+			"region": "Worchester",
+			"name": "Wolves",
+			"abbrev": "WOR",
+			"pop": 0.54,
+			"imgURL": "https://upload.wikimedia.org/wikipedia/en/e/e4/Worcester_Wolves.png",
+			"stadiumCapacity": 500,
+			"colors": ["#005000", "#009900", "#ffff00"]
+		}
+	],
+     "players": [{
+            "name": "Jelani Watson-Gayle",
+            "ratings": [{
+                "stre": 56.8,
+                "spd": 81.255,
+                "jmp": 63.86,
+                "endu": 74.875,
+                "ins": 44.5,
+                "dnk": 36.8,
+                "ft": 73.7,
+                "fg": 47.0,
+                "tp": 41.06,
+                "oiq": 63.3,
+                "diq": 37.8,
+                "drb": 70.55,
+                "pss": 86.501,
+                "reb": 43.56
+            }],
+            "hgt": 73,
+            "wgt": 185,
+            "college": "Fresno Pacific",
+            "born": {
+                "year": 1998,
+                "loc": "England"
+            },
+            "stats": [{
+                "playoffs": false,
+                "tid": 0,
+                "season": 2022,
+                "jerseyNumber": "33"
+            }],
+            "statsTids": [0],
+            "imgURL": "http://www.daveowenbasketball.co.uk/wp-content/themes/DaveOwenBasketball/_images/players/PLA938.png",
+            "tid": 0,
+            "pid": 0
+        },
+        {
+            "name": "Brandon Mahan",
+            "ratings": [{
+                "stre": 56.8,
+                "spd": 81.255,
+                "jmp": 63.86,
+                "endu": 74.875,
+                "ins": 44.5,
+                "dnk": 36.8,
+                "ft": 73.7,
+                "fg": 47.0,
+                "tp": 41.06,
+                "oiq": 63.3,
+                "diq": 37.8,
+                "drb": 70.55,
+                "pss": 86.501,
+                "reb": 43.56
+            }],
+            "hgt": 77,
+            "wgt": 205,
+            "college": "UCF",
+            "born": {
+                "year": 1998,
+                "loc": "USA"
+            },
+            "stats": [{
+                "playoffs": false,
+                "tid": 0,
+                "season": 2022,
+                "jerseyNumber": "1"
+            }],
+            "statsTids": [0],
+            "imgURL": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Mahan_Brandon_txam19.jpg",
+            "tid": 0,
+            "pid": 1
+        },
+        {
+            "name": "Tevin Olison",
+            "ratings": [{
+                "stre": *,
+                "spd": 81.255,
+                "jmp": 63.86,
+                "endu": 74.875,
+                "ins": 44.5,
+                "dnk": 36.8,
+                "ft": 73.7,
+                "fg": 47.0,
+                "tp": 41.06,
+                "oiq": 63.3,
+                "diq": 37.8,
+                "drb": 70.55,
+                "pss": 86.501,
+                "reb": 43.56
+            }],
+            "hgt": 76,
+            "wgt": 200,
+            "college": "Youngstown State",
+            "born": {
+                "year": 1998,
+                "loc": "USA"
+            },
+            "stats": [{
+                "playoffs": false,
+                "tid": 0,
+                "season": 2022,
+                "jerseyNumber": "1"
+            }],
+            "statsTids": [0],
+            "imgURL": "https://basketball.realgm.com/images/nba/4.2/profiles/photos/2006/Olison_Tevin_ysu21.jpg",
+            "tid": 0,
+            "pid": 2
+        },
+     ]
+}
